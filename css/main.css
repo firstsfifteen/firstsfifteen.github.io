@@ -2095,7 +2095,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #1af0e8;
+  background: #363ce9;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3445,7 +3445,7 @@ pre .javascript .function {
   border-bottom: none;
 }
 .post-body p a:hover {
-  color: #0000cd;
+  color: #2780e3;
   text-decoration: underline;
 }
 .link-blue {
@@ -3720,18 +3720,6 @@ span#yu-2 {
   border-top: 1px solid #222;
   border-bottom: 1px solid #222;
   font-size: 130%;
-}
-body {
-  background-image: url("http://ww1.sinaimg.cn/large/006Zu4Vegy1g32jjr7td0j30u0140x6u");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: 50% 50%;
-  background-size: 100% 100%;
-}
-#sidebar p,
-#sidebar span,
-#sidebar a {
-  color: #cd853f;
 }
 @-moz-keyframes animate-yu-1 {
   0% {

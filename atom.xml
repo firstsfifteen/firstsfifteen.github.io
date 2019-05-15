@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://firstsfifteen.github.io/"/>
-  <updated>2019-05-15T16:59:57.927Z</updated>
+  <updated>2019-05-15T17:07:51.068Z</updated>
   <id>https://firstsfifteen.github.io/</id>
   
   <author>
@@ -17,51 +17,31 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title></title>
-    <link href="https://firstsfifteen.github.io/2019/05/16/%E4%BC%A0%E4%B8%8D%E4%B8%8A%E5%8E%BB/"/>
-    <id>https://firstsfifteen.github.io/2019/05/16/传不上去/</id>
-    <published>2019-05-15T16:58:53.148Z</published>
-    <updated>2019-05-15T16:59:57.927Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="传不上去吗"><a href="#传不上去吗" class="headerlink" title="传不上去吗"></a>传不上去吗</h1><p>为什么</p><ul><li>我上个md文件怎么传不上去</li></ul>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h1 id=&quot;传不上去吗&quot;&gt;&lt;a href=&quot;#传不上去吗&quot; class=&quot;headerlink&quot; title=&quot;传不上去吗&quot;&gt;&lt;/a&gt;传不上去吗&lt;/h1&gt;&lt;p&gt;为什么&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;我上个md文件怎么传不上去&lt;/li&gt;
-&lt;/ul&gt;
-
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title></title>
+    <title>图床测试</title>
     <link href="https://firstsfifteen.github.io/2019/05/15/%E5%9B%BE%E5%BA%8A%E6%B5%8B%E8%AF%95/"/>
     <id>https://firstsfifteen.github.io/2019/05/15/图床测试/</id>
     <published>2019-05-15T14:41:31.160Z</published>
-    <updated>2019-05-15T16:57:03.087Z</updated>
+    <updated>2019-05-15T17:07:51.068Z</updated>
     
-    <content type="html"><![CDATA[<h4 id="图床测试"><a href="#图床测试" class="headerlink" title="图床测试"></a>图床测试</h4><ol><li><p><strong>新浪图床</strong></p><ul><li><p>[x] 参考<a href="https://link.zhihu.com/?target=https%3A//github.com/fate-lovely/pic-on-weibo" target="_blank" rel="noopener">图床on微博</a>,在chrome浏览器导入插件，开启插件，登录微博就可以在框里上传图片，就可以复制链接了。</p><ul><li><p>使用微博图床效果如下：<br><img src="http://ww1.sinaimg.cn/large/006Zu4Vegy1g32g419jv8j30hs0hsjtg" alt="兔子"></p><blockquote><p>图片的微博图床链接：</p><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&gt; http://ww1.sinaimg.cn/large/006Zu4Vegy1g32g419jv8j30hs0hsjtg </span><br><span class="line">&gt;</span><br></pre></td></tr></table></figure></blockquote></li></ul></li></ul></li><li><p>在线网站<strong>[聚合图床**</strong>](<a href="https://www.superbed.cn/)*" target="_blank" rel="noopener">https://www.superbed.cn/)*</a>*</p><ul><li style="list-style: none"><input type="checkbox"> </li></ul></li></ol><ol start="3"><li><p>本图片的链接来自个人<strong>搭建的网盘站</strong>，实现了图床功能。</p><ul><li><p>[x] 但在 Tyopra 编辑器中，添加了图片的描述，却无法正常显示:</p><ul><li><p>如下图1：<br><img src="http://firstsfifteen.eu5.org/?/a.jpg" alt="詹姆斯·勒布朗"> </p><blockquote><p>图片的个人网盘链接：</p><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&gt; http://firstsfifteen.eu5.org/?/a.jpg</span><br><span class="line">&gt;</span><br></pre></td></tr></table></figure></blockquote></li><li><p>图2<br><img src="http://firstsfifteen.eu5.org/?/img/z.jpg" alt="地球"></p><blockquote><p>图片的个人网盘链接：</p><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&gt; http://firstsfifteen.eu5.org/?/img/z.jpg</span><br><span class="line">&gt;</span><br></pre></td></tr></table></figure></blockquote></li></ul></li></ul></li></ol><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>]]></content>
+    <content type="html"><![CDATA[<h4 id="图床测试"><a href="#图床测试" class="headerlink" title="图床测试"></a>图床测试</h4><ol><li><strong>新浪图床</strong></li></ol><ul><li><p>[x] 参考<a href="https://link.zhihu.com/?target=https%3A//github.com/fate-lovely/pic-on-weibo" target="_blank" rel="noopener">图床on微博</a>,在chrome浏览器导入插件，开启插件，登录微博就可以在框里上传图片，就可以复制链接了。</p></li><li><p>使用微博图床效果如下：<br><img src="http://ww1.sinaimg.cn/large/006Zu4Vegy1g32g419jv8j30hs0hsjtg" alt="兔子"></p></li></ul><blockquote><p>图片的微博图床链接：<br><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&gt; http://ww1.sinaimg.cn/large/006Zu4Vegy1g32g419jv8j30hs0hsjtg </span><br><span class="line">&gt;</span><br></pre></td></tr></table></figure></p></blockquote><ol start="2"><li>在线网站<strong>[聚合图床**</strong>](<a href="https://www.superbed.cn/)*" target="_blank" rel="noopener">https://www.superbed.cn/)*</a>*</li></ol><ul><li style="list-style: none"><input type="checkbox"> </li></ul><ol start="3"><li>本图片的链接来自个人<strong>搭建的网盘站</strong>，实现了图床功能。</li></ol><ul><li style="list-style: none"><input type="checkbox" checked> 但在 Tyopra 编辑器中，添加了图片的描述，却无法正常显示:</li><li>如下图1：<br><img src="http://firstsfifteen.eu5.org/?/a.jpg" alt="詹姆斯·勒布朗"> </li></ul><blockquote><p>图片的个人网盘链接：<br><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&gt; http://firstsfifteen.eu5.org/?/a.jpg</span><br><span class="line">&gt;</span><br></pre></td></tr></table></figure></p></blockquote><ul><li>图2<br><img src="http://firstsfifteen.eu5.org/?/img/z.jpg" alt="地球"></li></ul><blockquote><p>图片的个人网盘链接：<br><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&gt; http://firstsfifteen.eu5.org/?/img/z.jpg</span><br><span class="line">&gt;</span><br></pre></td></tr></table></figure></p></blockquote>]]></content>
     
     <summary type="html">
     
       
       
         &lt;h4 id=&quot;图床测试&quot;&gt;&lt;a href=&quot;#图床测试&quot; class=&quot;headerlink&quot; title=&quot;图床测试&quot;&gt;&lt;/a&gt;图床测试&lt;/h4&gt;&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;新浪图床&lt;/strong&gt;&lt;/p&gt;
+&lt;li&gt;&lt;strong&gt;新浪图床&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;[x] 参考&lt;a href=&quot;
+&lt;li&gt;&lt;p&gt;[x] 参考&lt;a hr
       
     
     </summary>
     
+      <category term="测试" scheme="https://firstsfifteen.github.io/categories/%E6%B5%8B%E8%AF%95/"/>
+    
+    
+      <category term="图床" scheme="https://firstsfifteen.github.io/tags/%E5%9B%BE%E5%BA%8A/"/>
     
   </entry>
   

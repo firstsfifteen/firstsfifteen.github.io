@@ -3,7 +3,7 @@
   <entry>
     <title><![CDATA[图床测试]]></title>
     <url>%2F2019%2F05%2F15%2F%E5%9B%BE%E5%BA%8A%E6%B5%8B%E8%AF%95%2F</url>
-    <content type="text"><![CDATA[图床测试 新浪图床 [x] 参考图床on微博,在chrome浏览器导入插件，开启插件，登录微博就可以在框里上传图片，就可以复制链接了。 使用微博图床效果如下： 图片的微博图床链接：12&gt; http://ww1.sinaimg.cn/large/006Zu4Vegy1g32g419jv8j30hs0hsjtg &gt; 在线网站[聚合图床**](https://www.superbed.cn/)** 本图片的链接来自个人搭建的网盘站，实现了图床功能。 但在 Tyopra 编辑器中，添加了图片的描述，却无法正常显示: 如下图1： 图片的个人网盘链接：12&gt; http://firstsfifteen.eu5.org/?/a.jpg&gt; 图2 图片的个人网盘链接：12&gt; http://firstsfifteen.eu5.org/?/img/z.jpg&gt;]]></content>
+    <content type="text"><![CDATA[图床测试 新浪图床 参考图床on微博,在chrome浏览器导入插件，开启插件，登录微博就可以在框里上传图片，就可以复制链接了。 使用微博图床效果如下： 图片的微博图床链接： 1http://ww1.sinaimg.cn/large/006Zu4Vegy1g32g419jv8j30hs0hsjtg 本图片的链接来自个人搭建的网盘站，实现了图床功能。 但在 Tyopra 编辑器中，添加了图片的描述，却无法正常显示: 如下图1： 图片的个人网盘链接： 1http://firstsfifteen.eu5.org/?/a.jpg 图2 图片的个人网盘链接： 1http://firstsfifteen.eu5.org/?/img/z.jpg]]></content>
       <categories>
         <category>测试</category>
       </categories>
@@ -19,7 +19,9 @@
         <category>技术教程</category>
       </categories>
       <tags>
-        <tag>hexo , next , 特色配置</tag>
+        <tag>hexo</tag>
+        <tag>next</tag>
+        <tag>特色配置</tag>
       </tags>
   </entry>
   <entry>

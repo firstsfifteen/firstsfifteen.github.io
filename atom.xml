@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://firstsfifteen.github.io/"/>
-  <updated>2019-05-15T16:48:14.186Z</updated>
+  <updated>2019-05-15T16:57:03.087Z</updated>
   <id>https://firstsfifteen.github.io/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title></title>
+    <link href="https://firstsfifteen.github.io/2019/05/15/%E5%9B%BE%E5%BA%8A%E6%B5%8B%E8%AF%95/"/>
+    <id>https://firstsfifteen.github.io/2019/05/15/图床测试/</id>
+    <published>2019-05-15T14:41:31.160Z</published>
+    <updated>2019-05-15T16:57:03.087Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id="图床测试"><a href="#图床测试" class="headerlink" title="图床测试"></a>图床测试</h4><ol><li><p><strong>新浪图床</strong></p><ul><li><p>[x] 参考<a href="https://link.zhihu.com/?target=https%3A//github.com/fate-lovely/pic-on-weibo" target="_blank" rel="noopener">图床on微博</a>,在chrome浏览器导入插件，开启插件，登录微博就可以在框里上传图片，就可以复制链接了。</p><ul><li><p>使用微博图床效果如下：<br><img src="http://ww1.sinaimg.cn/large/006Zu4Vegy1g32g419jv8j30hs0hsjtg" alt="兔子"></p><blockquote><p>图片的微博图床链接：</p><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&gt; http://ww1.sinaimg.cn/large/006Zu4Vegy1g32g419jv8j30hs0hsjtg </span><br><span class="line">&gt;</span><br></pre></td></tr></table></figure></blockquote></li></ul></li></ul></li><li><p>在线网站<strong>[聚合图床**</strong>](<a href="https://www.superbed.cn/)*" target="_blank" rel="noopener">https://www.superbed.cn/)*</a>*</p><ul><li style="list-style: none"><input type="checkbox"> </li></ul></li></ol><ol start="3"><li><p>本图片的链接来自个人<strong>搭建的网盘站</strong>，实现了图床功能。</p><ul><li><p>[x] 但在 Tyopra 编辑器中，添加了图片的描述，却无法正常显示:</p><ul><li><p>如下图1：<br><img src="http://firstsfifteen.eu5.org/?/a.jpg" alt="詹姆斯·勒布朗"> </p><blockquote><p>图片的个人网盘链接：</p><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&gt; http://firstsfifteen.eu5.org/?/a.jpg</span><br><span class="line">&gt;</span><br></pre></td></tr></table></figure></blockquote></li><li><p>图2<br><img src="http://firstsfifteen.eu5.org/?/img/z.jpg" alt="地球"></p><blockquote><p>图片的个人网盘链接：</p><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&gt; http://firstsfifteen.eu5.org/?/img/z.jpg</span><br><span class="line">&gt;</span><br></pre></td></tr></table></figure></blockquote></li></ul></li></ul></li></ol><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h4 id=&quot;图床测试&quot;&gt;&lt;a href=&quot;#图床测试&quot; class=&quot;headerlink&quot; title=&quot;图床测试&quot;&gt;&lt;/a&gt;图床测试&lt;/h4&gt;&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;新浪图床&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;[x] 参考&lt;a href=&quot;
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>个人博客的搭建与美化</title>

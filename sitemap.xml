@@ -2,6 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://firstsfifteen.github.io/lib/bookmark/package.json</loc>
+    
+    <lastmod>2019-05-16T11:07:53.130Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://firstsfifteen.github.io/lib/bookmark/README.html</loc>
+    
+    <lastmod>2019-05-16T11:07:53.129Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://firstsfifteen.github.io/lib/canvas-nest/README.html</loc>
+    
+    <lastmod>2019-05-16T10:59:06.522Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://firstsfifteen.github.io/lib/three/package.json</loc>
     
     <lastmod>2019-05-16T10:54:07.047Z</lastmod>

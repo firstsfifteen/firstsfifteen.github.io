@@ -56,17 +56,35 @@
   
 
   
+    
+      
+    
 
-  
-
+    
   
 
   
 
   
     
+      
     
-    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext">
+
+    
+  
+
+  
+    
+      
+    
+
+    
+  
+
+  
+    
+    
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Monda:300,300italic,400,400italic,700,700italic|Roboto Slab:300,300italic,400,400italic,700,700italic|Lobster Two:300,300italic,400,400italic,700,700italic|PT Mono:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext">
   
 
 
@@ -166,6 +184,16 @@
 
 
 
+  <script>
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?d78bd8ff9f2c8eb30bc172318eea7dc0";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
+
 
 
 
@@ -257,6 +285,8 @@
     
 
     
+      
+    
 
     <a href="/" rel="section"><i class="menu-item-icon fa fa-fw fa-library"></i> <br>首页</a>
 
@@ -274,8 +304,10 @@
     
 
     
+      
+    
 
-    <a href="/tags/" rel="section"><i class="menu-item-icon fa fa-fw fa-tags"></i> <br>标签</a>
+    <a href="/tags/" rel="section"><i class="menu-item-icon fa fa-fw fa-tags"></i> <br>标签<span class="badge">5</span></a>
 
   </li>
         
@@ -291,8 +323,10 @@
     
 
     
+      
+    
 
-    <a href="/categories/" rel="section"><i class="menu-item-icon fa fa-fw fa-th"></i> <br>分类</a>
+    <a href="/categories/" rel="section"><i class="menu-item-icon fa fa-fw fa-th"></i> <br>分类<span class="badge">2</span></a>
 
   </li>
         
@@ -308,8 +342,10 @@
     
 
     
+      
+    
 
-    <a href="/archives/" rel="section"><i class="menu-item-icon fa fa-fw fa-archive"></i> <br>归档</a>
+    <a href="/archives/" rel="section"><i class="menu-item-icon fa fa-fw fa-archive"></i> <br>归档<span class="badge">4</span></a>
 
   </li>
         
@@ -324,6 +360,8 @@
       
     
 
+    
+      
     
 
     <a href="/about/" rel="section"><i class="menu-item-icon fa fa-fw fa-user"></i> <br>关于</a>
@@ -588,14 +626,6 @@
           
 
           
-            <div class="chat motion-element">
-              
-              
-              <i class="fa fa-comment"></i>
-                  Chat
-                
-            </div>
-          
 
           
             <div class="links-of-author motion-element">
@@ -644,6 +674,17 @@
                   <a href="https://www.zhihu.com/people/zhi-jian-47-13" title="知乎 &rarr; https://www.zhihu.com/people/zhi-jian-47-13" rel="noopener" target="_blank"><i class="fa fa-fw fa-bandcamp"></i>知乎</a>
                 </span>
               
+                <span class="links-of-author-item">
+                  
+                  
+                    
+                  
+                  
+                    
+                  
+                  <a href="https://www.facebook.com/profile.php?id=100031711572654" title="Facebook &rarr; https://www.facebook.com/profile.php?id=100031711572654" rel="noopener" target="_blank"><i class="fa fa-fw fa-facebook"></i>Facebook</a>
+                </span>
+              
             </div>
           
 
@@ -655,7 +696,7 @@
               
               
               
-              <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" class="cc-opacity" rel="noopener" target="_blank"><img src="/images/cc-by-nc-sa.svg" alt="Creative Commons"></a>
+              <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" class="cc-opacity" rel="noopener" target="_blank"><img src="/images/cc-by-nc-sa.svg" alt="Creative Commons"></a>
              </div>
           
 
@@ -711,6 +752,32 @@
 
 
         
+<div class="busuanzi-count">
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+  
+    <span class="post-meta-item-icon">
+      <i class="fa fa-user"></i>
+    </span>
+    <span class="site-uv" title="总访客量">
+      <span class="busuanzi-value" id="busuanzi_value_site_uv"></span>
+    </span>
+  
+
+  
+    <span class="post-meta-divider">|</span>
+  
+
+  
+    <span class="post-meta-item-icon">
+      <i class="fa fa-eye"></i>
+    </span>
+    <span class="site-pv" title="总访问量">
+      <span class="busuanzi-value" id="busuanzi_value_site_pv"></span>
+    </span>
+  
+</div>
+
 
 
 
@@ -897,6 +964,19 @@
       $("#search-loading-icon").css('margin', '20% auto 0 auto').css('text-align', 'center');
 
       
+        // ref: https://github.com/ForbesLindesay/unescape-html
+        var unescapeHtml = function(html) {
+          return String(html)
+            .replace(/&quot;/g, '"')
+            .replace(/&#39;/g, '\'')
+            .replace(/&#x3A;/g, ':')
+            // replace all the other &#x; chars
+            .replace(/&#(\d+);/g, function (m, p) { return String.fromCharCode(p); })
+            .replace(/&lt;/g, '<')
+            .replace(/&gt;/g, '>')
+            .replace(/&amp;/g, '&');
+        };
+      
 
       $.ajax({
         url: path,
@@ -931,6 +1011,8 @@
                 var title = data.title.trim();
                 var titleInLowerCase = title.toLowerCase();
                 var content = data.content.trim().replace(/<[^>]+>/g,"");
+                
+                content = unescapeHtml(content);
                 
                 var contentInLowerCase = content.toLowerCase();
                 var articleUrl = decodeURIComponent(data.url).replace(/\/{2,}/g, '/');
@@ -1267,7 +1349,7 @@
       
         pbOptions.position = "bottomCenter";
       
-        pbOptions.networks = "Weibo,Wechat,Douban,QQZone,Twitter,Facebook";
+        pbOptions.networks = "Weibo,Wechat,Twitter,Facebook,Evernote,Douban";
       
       new needShareButton('#needsharebutton-postbottom', pbOptions);
     
@@ -1283,7 +1365,7 @@
 
   
 <script>
-  $('.highlight').not('.gist .highlight').each(function(i, e) {
+  $('.highlight').each(function(i, e) {
     var $wrap = $('<div>').addClass('highlight-wrap');
     $(e).after($wrap);
     $wrap.append($('<button>').addClass('copy-btn').append('复制').on('click', function(e) {

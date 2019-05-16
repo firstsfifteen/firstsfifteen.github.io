@@ -1366,7 +1366,7 @@ pre .javascript .function {
 }
 .post-sticky-flag {
   display: inline-block;
-  font-size: 16px;
+  font-size: 15px;
   transform: rotate(30deg);
 }
 .use-motion .post-block,
@@ -2011,7 +2011,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #096ebe;
+  background: #c35b59;
 }
 .feed-link,
 .chat {

@@ -1,32 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[添加音乐]]></title>
-    <url>%2F2019%2F05%2F16%2F%E5%8D%9A%E5%AE%A2%E4%B8%AD%E6%B7%BB%E5%8A%A0%E9%9F%B3%E4%B9%90%E5%92%8C%E8%A7%86%E9%A2%91%2F</url>
-    <content type="text"><![CDATA[一、博客站点添加音乐播放器因为我们搭建的hexo为静态博客，看起来比较枯燥，不过我们可 以通过一些配置来美化我们的博客，这部分内容主要讲一下在主页的侧边栏引入音乐播放： 我这里选用的是网易云音乐的外链来实现，其他的音乐也类似： 登录网页版的网易云音乐，选择一首歌曲或者多首歌曲到歌单，点击生成外链播放器，本播放器没有版权的歌是不能生成外链的； 选择iframe插件，自定义设置外链，然后点击复制代码； 将外链插入到~/themes/next-recent/layout/_macro/sidebar.swig中，比如我想把外链播放器放在侧边栏链接的下方； 最后在博客中的效果： 二、文章中添加音乐和视频播放器同理，还是采用外链的方式，不过在博客文章里引入音乐或者视频更加简单，直接黏贴外链代码到目标位置就可以了，测试如下： 1. 添加音乐到文章 起风了（原始版）（Cover：买辣椒也用券）,下方为我选择的这首歌的外链源码和外链播放器： 1&lt;iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&amp;id=1340175443&amp;auto=0&amp;height=66"&gt;&lt;/iframe&gt; [x] 2. 添加视频到文章 像优酷、土豆、腾讯视频、爱奇艺、哔哩哔哩等都支持视频外链,上传视频后,点击分享按钮,就能找到视频外链链接； bilibili片头没广告，太有良心了有木有~，就拿B站复制外链来举例 黏贴链接到目标位置 买辣椒也用券 —《起风了》MV 的视频外链和外链播放器： 1&lt;iframe src="//player.bilibili.com/player.html?aid=39293155&amp;cid=69050275&amp;page=1" scrolling="no" border="0" height=400 frameborder="no" framespacing="0" allowfullscreen="true"&gt; &lt;/iframe&gt; B站复制过来的外链，只有width默认填满了页面，所以我自行添加了height=400来控制播放器的尺寸 这个起风了mv是放在我用onedrive搭建的网盘中的，所以读取速度很慢； MV外链和外链播放器如下： 1&lt;video&gt;&lt;source src="http://firstsfifteen.eu5.org/?/%E8%A7%86%E9%A2%91/MV/%E3%80%8A%E8%B5%B7%E9%A3%8E%E4%BA%86%E3%80%8B.mp4" type="video/mp4"&gt;&lt;/video&gt; 本次测试内容就到这里，仅供娱乐！]]></content>
-      <categories>
-        <category>技术教程</category>
-      </categories>
-      <tags>
-        <tag>测试</tag>
-        <tag>hexo配置</tag>
-      </tags>
+    <title><![CDATA[Hexo博客的基本配置]]></title>
+    <url>%2F2019%2F05%2F17%2FHexo%E5%8D%9A%E5%AE%A2%E7%9A%84%E5%9F%BA%E6%9C%AC%E9%85%8D%E7%BD%AE%2F</url>
+    <content type="text"></content>
+  </entry>
+  <entry>
+    <title><![CDATA[Hexo博客的搭建]]></title>
+    <url>%2F2019%2F05%2F17%2FHexo%E5%8D%9A%E5%AE%A2%E7%9A%84%E6%90%AD%E5%BB%BA%2F</url>
+    <content type="text"></content>
+  </entry>
+  <entry>
+    <title><![CDATA[Hexo博客的美化]]></title>
+    <url>%2F2019%2F05%2F17%2FHexo%E5%8D%9A%E5%AE%A2%E7%9A%84%E7%BE%8E%E5%8C%96%2F</url>
+    <content type="text"></content>
   </entry>
   <entry>
     <title><![CDATA[博客中添加音乐和视频]]></title>
-    <url>%2F2019%2F05%2F16%2F%E6%B7%BB%E5%8A%A0%E9%9F%B3%E4%B9%90%2F</url>
+    <url>%2F2019%2F05%2F16%2F%E5%8D%9A%E5%AE%A2%E4%B8%AD%E6%B7%BB%E5%8A%A0%E9%9F%B3%E4%B9%90%E5%92%8C%E8%A7%86%E9%A2%91%2F</url>
     <content type="text"><![CDATA[一、博客站点添加音乐播放器因为我们搭建的hexo为静态博客，看起来比较枯燥，不过我们可 以通过一些配置来美化我们的博客，这部分内容主要讲一下在主页的侧边栏引入音乐播放： 我这里选用的是网易云音乐的外链来实现，其他的音乐也类似： 登录网页版的网易云音乐，选择一首歌曲或者多首歌曲到歌单，点击生成外链播放器，本播放器没有版权的歌是不能生成外链的； 选择iframe插件，自定义设置外链，然后点击复制代码； 将外链插入到~/themes/next-recent/layout/_macro/sidebar.swig中，比如我想把外链播放器放在侧边栏链接的下方； 最后在博客中的效果： 二、文章中添加音乐和视频播放器同理，还是采用外链的方式，不过在博客文章里引入音乐或者视频更加简单，直接黏贴外链代码到目标位置就可以了，测试如下： 1. 添加音乐到文章 起风了（原始版）（Cover：买辣椒也用券）,下方为我选择的这首歌的外链源码和外链播放器： 1&lt;iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&amp;id=1340175443&amp;auto=0&amp;height=66"&gt;&lt;/iframe&gt; [x] 2. 添加视频到文章 像优酷、土豆、腾讯视频、爱奇艺、哔哩哔哩等都支持视频外链,上传视频后,点击分享按钮,就能找到视频外链链接； bilibili片头没广告，太有良心了有木有~，就拿B站复制外链来举例 黏贴链接到目标位置 买辣椒也用券 —《起风了》MV 的视频外链和外链播放器： 1&lt;iframe src="//player.bilibili.com/player.html?aid=39293155&amp;cid=69050275&amp;page=1" scrolling="no" border="0" height=400 frameborder="no" framespacing="0" allowfullscreen="true"&gt; &lt;/iframe&gt; B站复制过来的外链，只有width默认填满了页面，所以我自行添加了height=400来控制播放器的尺寸 这个起风了mv是放在我用onedrive搭建的网盘中的，所以读取速度很慢； MV外链和外链播放器如下： 1&lt;video&gt;&lt;source src="http://firstsfifteen.eu5.org/?/%E8%A7%86%E9%A2%91/MV/%E3%80%8A%E8%B5%B7%E9%A3%8E%E4%BA%86%E3%80%8B.mp4" type="video/mp4"&gt;&lt;/video&gt; 本次测试内容就到这里，仅供娱乐！]]></content>
       <categories>
-        <category>技术教程</category>
+        <category>娱乐试验</category>
       </categories>
       <tags>
-        <tag>测试</tag>
+        <tag>小测试</tag>
         <tag>hexo配置</tag>
       </tags>
   </entry>
   <entry>
     <title><![CDATA[图床测试]]></title>
-    <url>%2F2019%2F05%2F16%2F%E5%9B%BE%E5%BA%8A%E6%B5%8B%E8%AF%95%2F</url>
+    <url>%2F2019%2F05%2F16%2F%E5%9B%BE%E5%BA%8A%2F</url>
     <content type="text"><![CDATA[新浪图床 参考图床on微博,在chrome浏览器导入插件，开启插件，登录微博就可以在框里上传图片，就可以复制链接了。 使用微博图床效果如下： 图片的微博图床链接： 1http://ww1.sinaimg.cn/large/006Zu4Vegy1g32g419jv8j30hs0hsjtg 本图片的链接来自个人搭建的网盘站，实现了图床功能。 但在 Tyopra 编辑器中，添加了图片的描述，却无法正常显示: 如下图1： 图片的个人网盘链接： 1http://firstsfifteen.eu5.org/?/a.jpg 图2 图片的个人网盘链接： 1http://firstsfifteen.eu5.org/?/img/z.jpg]]></content>
       <categories>
         <category>测试</category>

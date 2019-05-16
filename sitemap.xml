@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://firstsfifteen.github.io/lib/three/package.json</loc>
+    
+    <lastmod>2019-05-16T10:54:07.047Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://firstsfifteen.github.io/lib/three/README.html</loc>
+    
+    <lastmod>2019-05-16T10:54:07.044Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://firstsfifteen.github.io/tags/index.html</loc>
     
     <lastmod>2019-05-16T10:34:43.543Z</lastmod>

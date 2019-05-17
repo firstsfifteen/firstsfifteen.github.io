@@ -1409,7 +1409,7 @@ pre .javascript .function {
 }
 @media (max-width: 991px) {
   .posts-expand .post-body {
-    text-align: justify-all;
+    text-align: match-parent;
   }
 }
 .posts-expand .post-body h2,
@@ -2011,7 +2011,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #a4ffa4;
+  background: #ffff8a;
 }
 .feed-link,
 .chat {

@@ -48,6 +48,18 @@
       </tags>
   </entry>
   <entry>
+    <title><![CDATA[Hexo博客的搭建]]></title>
+    <url>%2F2019%2F05%2F15%2FHexo%E5%8D%9A%E5%AE%A2%E7%9A%84%E6%90%AD%E5%BB%BA%2F</url>
+    <content type="text"><![CDATA[一、配置环境 打开 node.js和 Git 官网，下载并安装Git和node。 安转一直点击下一步即可。 打开cmd命令行，输入代码查看node.js和Git环境是否安装成功： 12node -vgit --version 安装成功后会显示当前版本，如图 二、安装Hexo 在命令行输入如下代码，进行hexo的安装： 1npm install -g hexo -cli 输入hexo -v，检查hexo是否安装成功： Hexo安装完成后，就可以在目录下依次执行以下命令: 123hexo init &lt;folder&gt; //&lt;folder&gt;为自定义的文件夹名cd &lt;folder&gt;npm install 输入hexo init 文件夹名，初始化文件夹 在博客目录下输入npm install，安装所需要的组件 三、 测试Hexo 输入hexo g，生成静态文件，首次体验Hexo； 输入hexo s，开启服务器，访问该网址，就可以体验Hexo了； 开启服务器 浏览器中输入localhost:4000，便可以访问静态博客页面了 在命令行输入ctrl+c，根据提示输入Y，就可以停止服务器。 四、 Hexo部署到服务器上Hexo 提供了快速方便的一键部署功能，只需一条命令就能将网站部署到服务器上。下面分别介绍将Hexo部署到Github和Coding上。 (一)、Hexo部署到Github 登录github官网，注册Github账号； GitHub中创建个人仓库；创建一个和你用户名相同的仓库，后面加.github.io，只有这样，将来要部署到GitHub page的时候，才会被识别，也就是，其中xxx就是你注册GitHub的用户名。这里我已经创建过了。 生成SSH添加到GitHub 回到你的gitbash中 12git config --global user.name "yourname" git config --global user.email "youremail" 这里的yourname输入你的GitHub用户名，youremail输入你GitHub的邮箱。这样GitHub才能知道你是不是对应它的账户。 然后创建SSH,一路回车 1ssh -keygen -t rsa -C "youremail" 这个时候它会告诉你已经生成了.ssh的文件夹.ssh，简单来讲，就是一个秘钥，id_rsa.pub是公共秘钥，把这个公钥放在GitHub上，这样当你链接GitHub自己的账户时，它就会根据公钥匹配你的私钥，当能够相互匹配时，才能够顺利的通过git上传你的文件到GitHub上。 而后在GitHub的setting中，找到SSH keys的设置选项，点击New SSH key 把你的id_rsa.pub里面的信息复制进去。 将hexo和GitHub关联起来，也就是将hexo生成的文章部署到GitHub上，打开站点配置文件 _config.yml，翻到最后，添加以下代码，修改YourgithubName为你的GitHub账户昵称。 1234deploy: type: git repo: https://github.com/YourgithubName/YourgithubName.github.io.git branch: master 在生成以及部署文章之前，需要安装一个扩展： 1npm install hexo-deployer-git --save 在每次更新博客目录内容后，可以依次输入以下命令将其部署到GitHub 123hexo cleanhexo generate //可简写为 hexo ghexo deploy // hexo d 等部署成功后，就可以在http://yourname.github.io 这个网站刷新查看你的博客了！！ （二）、Hexo部署到Coding 登录腾讯云开发者平台，注册账号； 进入控制台，新建项目： 添加公钥 查看项目的HTTPS链接： 将hexo和Coding关联起来，打开站点配置文件 _config.yml，添加自己Coding仓库的链接： 每次更新博客目录内容后，可以依次输入以下命令将其部署到Coding123hexo cleanhexo generate //可简写为 hexo ghexo deploy // hexo d 等部署成功后，就可以在http://yourname.coding.me 这个网站刷新查看你的博客了！！ 五、 Hexo的基本配置在文件根目录下的_config.yml，就是整个hexo框架的配置文件了。可以在里面修改大部分的配置。详细可参考官访文档 。 站点配置 切换主题 Hexo常用命令 新建一篇文章 1hexo new "my blog" 生成静态文件 1hexo generate //简写 hexo g 部署网站 1hexo deploy //简写 hexo d Hexo插件安装 1例如：安装Git插件 npm install hexo-deployer-git --save]]></content>
+      <categories>
+        <category>技术教程</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+        <tag>博客搭建</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[FirstBlog]]></title>
     <url>%2F2019%2F05%2F13%2FFirst-Blog%2F</url>
     <content type="text"><![CDATA[你好这是我的第一篇文章]]></content>

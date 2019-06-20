@@ -1,9 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title></title>
-    <url>%2F2019%2F06%2F15%2F%E8%81%94%E7%B3%BB%2F</url>
-    <content type="text"><![CDATA[和课堂听课开黑人口凯文卡特天空课堂提问]]></content>
+    <title><![CDATA[Java中的循环结构]]></title>
+    <url>%2F2019%2F06%2F20%2FJava%E4%B8%AD%E7%9A%84%E5%BE%AA%E7%8E%AF%E7%BB%93%E6%9E%84%2F</url>
+    <content type="text"><![CDATA[一、for循环 特点 ： 是基于固定次数的循环； 格式： 123for(初始条件；循环条件；步进)&#123; // 循环体&#125; for循环的执行过程： 先执行初始条件，在执行循环，如果满足循环条件；再执行循环体，循环体执行完后就进行步进处理； 把步进后的值跟循环条件做判断，满足则执行循环体，循环体执行完后就进行步进处理； 以此类推，遇到不满足循环条件，就结束整个for循环。 二、 while循环 特点： 基于条件的循环； 条件为真则执行循环，条件为假则结束循环； 格式： 12345678while(条件)&#123; // 循环体&#125;// 备注：// 使用while循环时，一定要在循环体中改变循环的条件，否则形成死循环；// 对于while循环，只有条件为true时，才会执行； while循环的执行过程 先判断是否满足条件，如果满足则执行循环【循环体中要有改变条件的表达式】；循环体执行完后在判断是否满足条件，以此类推，知道不满足条件结束循环。 演示： 1234567int i=1;while(i&lt;=10)&#123; System.out.print(i+" "); i++;&#125;运行结果： 1 2 3 4 5 6 7 8 9 10 三、 do while循环： 特点： 先执行再判断； 换句话说，不管你条件满不满足，都要先执行一次； 格式： 123do&#123; // 要执行的代码块&#125;while(条件)； 四、 continue关键字: 跳出本次循环，继续下一次循环； [x] 演示： 123456789// 打印1到10里面除了3之外的数字for(int i=1; i&lt;=10;i++)&#123; if(i=3)&#123; continue; // 跳出i=3的这次循环，不打印3，继续下一次循环 &#125; System.out.print(i+" ");&#125;运行结果： 1 2 4 5 6 7 8 9 10 五、break关键字： 跳出本轮循环； [x] 演示： 123456789// 循环打印1~10，找到5时，程序就退出for(int i = 1; i&lt;=10;i++) &#123; if(i==5) &#123; break; &#125; System.out.print(i+" "); &#125;运行结果： 1 2 3 4 六、 循环嵌套 行包含列 行的循环里面有列的循环，—-&gt;称为: 嵌套循环。 嵌套循环的执行过程： 外层循环执行一次，内层循环执行一轮。 [ ] 演示： 1234567891011// 打印 4乘4 的星星// 行for(int i=0；i&lt;4; i++)&#123; // 列 for(int j=0; j&lt;4; j++)&#123; System.out.print("*"); &#125; System.out.println(); //打印一行4个星星后换行&#125;运行结果： 跳出循环嵌套]]></content>
+      <categories>
+        <category>Java基础</category>
+      </categories>
+      <tags>
+        <tag>java总结</tag>
+        <tag>循环</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[进制之间的转换]]></title>
+    <url>%2F2019%2F06%2F18%2F%E8%BF%9B%E5%88%B6%E4%B9%8B%E9%97%B4%E7%9A%84%E8%BD%AC%E6%8D%A2%2F</url>
+    <content type="text"><![CDATA[进制也就是进制位，我们常用的进制包括：二进制、八进制、十进制与十六进制，它们之间区别在于数运算时是逢几进一位。比如二进制是逢2进一位，十进制也就是我们常用的0-9是逢10进一位。]]></content>
+      <categories>
+        <category>基础知识</category>
+      </categories>
+      <tags>
+        <tag>进制</tag>
+        <tag>进制转换</tag>
+      </tags>
   </entry>
   <entry>
     <title><![CDATA[个人服务器使用记录]]></title>
@@ -112,8 +131,8 @@
         <category>娱乐试验</category>
       </categories>
       <tags>
-        <tag>小测试</tag>
         <tag>图床</tag>
+        <tag>小测试</tag>
       </tags>
   </entry>
   <entry>

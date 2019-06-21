@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[Java入门]]></title>
+    <url>%2F2019%2F06%2F22%2FJava%E5%85%A5%E9%97%A8%2F</url>
+    <content type="text"><![CDATA[一、计算机的组成1. 软件： 系统软件： 系统软件是指控制和协调计算机及外部设备,支持应用软件开发和运行的系统，是无需用户干预的各种程序的集合，主要功能是调度，监控和维护计算机系统；负责管理计算机系统中各种独立的硬件，使得它们可以协调工作。 应用软件： 是用户可以使用的各种程序设计语言，以及用各种程序设计语言编制的应用程序的集合，分为应用软件包和用户程序。 2. 硬件： 输入设备： 键盘，鼠标，摄像头，扫描仪，光笔，手写输入板，游戏杆，语音输入装置等。 输出设备： 显示器、打印机、绘图仪、影像输出系统、语音输出系统、磁记录设备等。 存储器： 内存（主存）：内存又分为随机读写存储器（RAM）和 只读存储器（ROM）； 外存（辅存）：磁盘、磁带、光盘和U盘 中央处理器：（Central Process Unit，CPU） 其它设备： 主板，机箱等等。 二、 Java入门1. Java发展史1995年由sun公司推款出的一种高级编程语言，于2009年被oracle收购； 2. Java的版本 JAVASE （ J2SE ）： 标准版 主要用来做桌面开发； JAVAEE （ J2EE ）： 企业版 主要用来做服务器开发； JAVAME（ J2ME）： 微型版 主要用来做移动手持设备端开发； 3. Java的特点： 简洁性 可移植性 面向对象 多线程 较好的性能 健壮性 4. Java环境配置 下载安装JDK ，下载地址：http://www.oracle.com/technetwork/java/index.html 下载安装Eclipse， 下载地址： http://www.eclipse.org/downloads/ JDK：（ Java Development Kits ） Java开发工具包 JRE：（ Java Runtime Environment ）Java运行时环境 JVM： ( Java Virtual Machine) Java虚拟机 JIT： （ Java IN Time）Java即时编译器 5. 编写第一个Java程序 Hello World12345678public class HelloWorld&#123; public static void main(String[] args)&#123; // 使用打印语句，在屏幕上显示 Hello World System.out.print("Hello World"); &#125; &#125;显示结果： Hello World 6. Java的运行过程.java的源文件 —（编译器）–&gt; .class字节码文件 —(解释器)—&gt; 机器码 javac 命令： 编译.java的源文件 java命令：解释字节码文件]]></content>
+      <categories>
+        <category>Java基础</category>
+      </categories>
+      <tags>
+        <tag>java总结</tag>
+        <tag>初识Java</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[数组]]></title>
     <url>%2F2019%2F06%2F21%2F%E6%95%B0%E7%BB%84%2F</url>
     <content type="text"><![CDATA[一、 数据介绍和特点1、 数组概念： 数组是一个变量，用来储存相同数据类型的一组数据。 2、 特点： 长度是固定不变的； 下标是从0开始的； 数组是引用的数据类型； 数组的默认值为null; 数组中元素的数据类型为声明数组时的数据类型； 数组在内存中是用一块连续的 声明方式： 边声明边赋值【又称：数组的静态初始化】 12格式1： 数据类型[] 数组名 = &#123;值1，值2,.....值n&#125;;格式2： 数据类型[] 数组名 = new 数据类型[]&#123;值1，值2,.....值n&#125;; 先声明后赋值 【又称：数组的动态初始化】 1234格式1： 数据类型[] 数组名 = new 数据类型[长度]; 格式2： 数据类型[] 数组名； 数组名 = 数据类型[长度]; 3、 访问数组 访问数组中的单个元素 格式： 数组名 [ 下标 ] 访问数组中的所有元素： length 属性：表示获取数组的长度 for循环取出所有的元素： 1234567 // 利用 for循环打印出 arr数组中的每个元素 int arr[] = &#123;1,2,3,4&#125;;for(int index=0;index&lt;arr.length;index++) &#123; System.out.print(arr[index] + " "); &#125; 运行结果： 1 2 3 4 for each方式 1234567 // 利用 for each 打印出数组中的每个元素 int[] arr =&#123;2,3,4,5&#125;;for(int i : arr) &#123; System.out.print( i + " "）; &#125; 运行结果： 2 3 4 5 在for each中，变量的数据类型必须和数组的数据类型一致； 该变量就表示数组中的每个元素； 不需要根据下标去找元素； 二、 多维数组1、介绍： 数组中的数组等； 多维数组的操作同一维数组； 2、 声明方式【以：二维数组为例】： 静态声明： 1格式1： 数据类型[][] 数组名 = &#123;&#123;值1，值2，...值n&#125;,&#123;值1，值2，...值n&#125;,&#123;值1，值2，...值n&#125;&#125;; 动态声明 12数据类型[][] 数组名 = new 数据类型[行的长度][列的长度]// 3、示例 12// 3行3列int[][] socre = &#123;&#123;60,70,80&#125;，&#123;76,87,65&#125;,&#123;98,67,87&#125;&#125;; 4、操作 访问元素： 数组名 [ 行的下标 ] [ 列的下标 ] 遍历二维数组： 123456789int [][] score = new int[4][4];//行for(int i=0;i&lt;socre.length;)i++&#123; //列 for(int j=0;j&lt;socre[i].length;j++)&#123; System.out.print(score[i][j]+" "); &#125; System.out.println(); // 换行处理&#125;]]></content>
@@ -21,18 +33,6 @@
       <tags>
         <tag>java总结</tag>
         <tag>循环</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[进制之间的转换]]></title>
-    <url>%2F2019%2F06%2F18%2F%E8%BF%9B%E5%88%B6%E4%B9%8B%E9%97%B4%E7%9A%84%E8%BD%AC%E6%8D%A2%2F</url>
-    <content type="text"><![CDATA[进制也就是进制位，我们常用的进制包括：二进制、八进制、十进制与十六进制，它们之间区别在于数运算时是逢几进一位。比如二进制是逢2进一位，十进制也就是我们常用的0-9是逢10进一位。]]></content>
-      <categories>
-        <category>基础知识</category>
-      </categories>
-      <tags>
-        <tag>进制</tag>
-        <tag>进制转换</tag>
       </tags>
   </entry>
   <entry>
@@ -93,8 +93,8 @@
         <category>个人记录</category>
       </categories>
       <tags>
-        <tag>服务器</tag>
         <tag>域名</tag>
+        <tag>服务器</tag>
       </tags>
   </entry>
   <entry>
@@ -154,8 +154,8 @@
         <category>娱乐试验</category>
       </categories>
       <tags>
-        <tag>图床</tag>
         <tag>小测试</tag>
+        <tag>图床</tag>
       </tags>
   </entry>
   <entry>

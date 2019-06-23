@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://firstsfifteen.github.io/"/>
-  <updated>2019-06-21T16:20:49.751Z</updated>
+  <updated>2019-06-23T02:25:54.433Z</updated>
   <id>https://firstsfifteen.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://firstsfifteen.github.io/2019/06/22/Java%E5%85%A5%E9%97%A8/"/>
     <id>https://firstsfifteen.github.io/2019/06/22/Java入门/</id>
     <published>2019-06-21T16:14:42.206Z</published>
-    <updated>2019-06-21T16:20:49.751Z</updated>
+    <updated>2019-06-23T02:25:54.433Z</updated>
     
     <content type="html"><![CDATA[<h4 id="一、计算机的组成"><a href="#一、计算机的组成" class="headerlink" title="一、计算机的组成"></a>一、计算机的组成</h4><h5 id="1-软件："><a href="#1-软件：" class="headerlink" title="1. 软件："></a>1. 软件：</h5><ul><li><p>系统软件：</p><p>系统软件是指控制和协调计算机及外部设备,支持应用软件开发和运行的系统，是无需用户干预的各种程序的集合，主要功能是调度，监控和维护计算机系统；负责管理计算机系统中各种独立的硬件，使得它们可以协调工作。</p></li><li><p>应用软件： </p><p>是用户可以使用的各种程序设计语言，以及用各种程序设计语言编制的应用程序的集合，分为应用软件包和用户程序。</p></li></ul><h5 id="2-硬件："><a href="#2-硬件：" class="headerlink" title="2. 硬件："></a>2. 硬件：</h5><ul><li><p>输入设备： 键盘，鼠标，摄像头，扫描仪，光笔，手写输入板，游戏杆，语音输入装置等。</p></li><li><p>输出设备： 显示器、打印机、绘图仪、影像输出系统、语音输出系统、磁记录设备等。</p></li><li><p>存储器：</p><ul><li><p>内存（主存）：内存又分为随机读写存储器（RAM）和 只读存储器（ROM）；</p></li><li><p>外存（辅存）：磁盘、磁带、光盘和U盘</p></li></ul></li><li><p>中央处理器：（Central Process Unit，CPU）</p></li><li><p>其它设备： 主板，机箱等等。</p></li></ul><h4 id="二、-Java入门"><a href="#二、-Java入门" class="headerlink" title="二、 Java入门"></a>二、 Java入门</h4><h5 id="1-Java发展史"><a href="#1-Java发展史" class="headerlink" title="1.  Java发展史"></a>1.  Java发展史</h5><p>1995年由sun公司推款出的一种高级编程语言，于2009年被oracle收购；</p><h5 id="2-Java的版本"><a href="#2-Java的版本" class="headerlink" title="2.  Java的版本"></a>2.  Java的版本</h5><ul><li>JAVASE （ J2SE ）： 标准版    主要用来做桌面开发；</li><li>JAVAEE （ J2EE ）： 企业版    主要用来做服务器开发；</li><li>JAVAME（ J2ME）： 微型版    主要用来做移动手持设备端开发；</li></ul><h5 id="3-Java的特点："><a href="#3-Java的特点：" class="headerlink" title="3. Java的特点："></a>3. Java的特点：</h5><ul><li>简洁性</li><li>可移植性</li><li>面向对象</li><li>多线程</li><li>较好的性能</li><li>健壮性</li></ul><h5 id="4-Java环境配置"><a href="#4-Java环境配置" class="headerlink" title="4. Java环境配置"></a>4. Java环境配置</h5><ol><li>下载安装JDK ，下载地址：<a href="http://www.oracle.com/technetwork/java/index.html" target="_blank" rel="noopener">http://www.oracle.com/technetwork/java/index.html</a></li><li>下载安装Eclipse， 下载地址： <a href="http://www.eclipse.org/downloads/" target="_blank" rel="noopener">http://www.eclipse.org/downloads/</a></li></ol><ul><li>JDK：（ Java  Development Kits ） Java开发工具包</li><li>JRE：（ Java  Runtime  Environment ）Java运行时环境</li><li>JVM： ( Java  Virtual  Machine)   Java虚拟机</li><li>JIT： （ Java  IN  Time）Java即时编译器</li></ul><h5 id="5-编写第一个Java程序-Hello-World"><a href="#5-编写第一个Java程序-Hello-World" class="headerlink" title="5.  编写第一个Java程序 Hello World"></a>5.  编写第一个Java程序 Hello World</h5><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span>  <span class="class"><span class="keyword">class</span> <span class="title">HelloWorld</span></span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span></span>&#123;</span><br><span class="line">           <span class="comment">// 使用打印语句，在屏幕上显示 Hello World</span></span><br><span class="line">        System.out.print(<span class="string">"Hello World"</span>);</span><br><span class="line">    &#125; </span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">显示结果：  Hello World</span><br></pre></td></tr></table></figure><h5 id="6-Java的运行过程"><a href="#6-Java的运行过程" class="headerlink" title="6.  Java的运行过程"></a>6.  Java的运行过程</h5><p>.java的源文件   —（编译器）–&gt;   .class字节码文件   —(解释器)—&gt;  机器码</p><ul><li>javac 命令： 编译.java的源文件</li><li>java命令：解释字节码文件</li></ul>]]></content>
     
@@ -384,9 +384,9 @@
       <category term="娱乐试验" scheme="https://firstsfifteen.github.io/categories/%E5%A8%B1%E4%B9%90%E8%AF%95%E9%AA%8C/"/>
     
     
-      <category term="小测试" scheme="https://firstsfifteen.github.io/tags/%E5%B0%8F%E6%B5%8B%E8%AF%95/"/>
-    
       <category term="图床" scheme="https://firstsfifteen.github.io/tags/%E5%9B%BE%E5%BA%8A/"/>
+    
+      <category term="小测试" scheme="https://firstsfifteen.github.io/tags/%E5%B0%8F%E6%B5%8B%E8%AF%95/"/>
     
   </entry>
   
